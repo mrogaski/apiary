@@ -1,2 +1,4 @@
-# go-template
-Go repository template
+# apiary
+
+An experimental event-driven microservice framework for Go.
+
