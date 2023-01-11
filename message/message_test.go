@@ -1,11 +1,13 @@
 package message_test
 
 import (
-	"github.com/mrogaski/go-template/message"
-	"github.com/stretchr/testify/assert"
 	"io"
 	"strings"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+
+	"github.com/mrogaski/apiary/message"
 )
 
 func TestNew(t *testing.T) {

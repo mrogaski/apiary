@@ -45,7 +45,7 @@ linters-settings:
     sections:
       - standard
       - default
-      - prefix(github.com/mrogaski/go-template)
+      - prefix(github.com/mrogaski/apiary)
   gocritic:
     enabled-tags:
       - diagnostic
@@ -56,7 +56,7 @@ linters-settings:
   gocyclo:
     min-complexity: 15
   goimports:
-    local-prefixes: github.com/mrogaski/go-template
+    local-prefixes: github.com/mrogaski/apiary
   golint:
     min-confidence: 0.8
   govet:
@@ -79,6 +79,7 @@ linters-settings:
   varnamelen:
     ignore-decls:
       - r io.Reader
+      - id uuid.UUID
 
 issues:
   max-same-issues: 0
